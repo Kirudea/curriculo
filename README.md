@@ -1,0 +1,2 @@
+# curriculo
+exercicio curriculo
