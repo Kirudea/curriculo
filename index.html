@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculo</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index-print.css" media="print" />
+    <link rel="shortcut icon" href="imgs/icon-curr.png"/>
+    <meta charset="utf-8"/>
+</head>
+<body>
+    <button id="bttImpr" onclick="imprimir()">Imprimir</button>
+    <main id="curri">
+        <h1>Kildere Maravilha Henrique da Silva</h1>
+        <div id="info">
+            <div class="dados">
+                <p>18, Solteiro</p>
+                <p>(83) 99999-9999</p>
+                <p>kildere@gmail.com</p>
+            </div>
+            <div class="imagem">
+                <img id="ft_perfil" src="imgs/perfil.jpg" alt="Foto_Perfil">
+            </div>
+        </div>
+        <div id="texto">           
+            <h3>Objetivos</h3>
+            <p>Lorem ipsum dolor sit amet. Qui magnam vitae qui impedit consectetur et optio enim. Ab laudantium nulla sed nobis deleniti in placeat adipisci hic corporis culpa?</p>
+            
+            <h3>Resumo</h3>
+            <p>Et molestiae repellat et fugiat temporibus et atque blanditiis. Vel laudantium ratione aut reprehenderit vero et obcaecati earum eos omnis soluta At aliquam tempora est iste soluta? Ad velit optio et quae voluptatem nam labore eius est blanditiis iusto et voluptatem asperiores aut exercitationem veritatis et facilis veritatis!</p>
+            
+            <h3>Conhecimentos</h3>
+            <p>Ab assumenda internos ut provident quia aut praesentium galisum? Est facere adipisci aut sint ducimus sit dolores qui iusto repudiandae ut ipsa explicabo sit voluptatem molestias. Eos illum officia ex incidunt dignissimos nam officia consequatur et laudantium provident ut laboriosam officia.</p>
+            
+            <h3>Experiências Anteriores</h3>
+            <h4>Web Designer - junho/2017 à janeiro 2021</h4>
+            <p>Qui perspiciatis quibusdam in internos nemo est sunt deleniti nam adipisci voluptas aut ipsam vitae ut nihil exercitationem. Et dolores eveniet aut illo quasi aut veritatis tenetur et tenetur tempore sed maiores pariatur. Ea accusantium magnam cum praesentium minus et distinctio laboriosam et harum explicabo. Sit mollitia magnam hic eius quas ut molestiae galisum aut autem minima qui debitis corrupti.</p>
+        </div>
+    </main>
+    <script type="text/javascript">
+        var btt = document.getElementById("bttImpr");
+        var curr = document.getElementById("curri");
+
+        function imprimir(){
+            window.print();
+        }
+    </script>
+</body>
+</html>
